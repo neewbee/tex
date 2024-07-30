@@ -1,0 +1,40 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{siunitx}
+
+\begin{document}
+
+\title{The Beer-Lambert Law}
+\author{}
+\date{}
+\maketitle
+
+\section*{The Beer-Lambert Law}
+
+The Beer-Lambert Law relates the attenuation of light to the properties of the material through which the light is traveling. The law is usually written as:
+
+\begin{equation}
+A = \epsilon c l
+\end{equation}
+
+where:
+\begin{itemize}
+    \item $A$ is the absorbance (no units, as it is a logarithmic ratio),
+    \item $\epsilon$ is the molar absorptivity or molar extinction coefficient (in units of \si{\per\mole\per\centi\meter}),
+    \item $c$ is the concentration of the absorbing species in the solution (in units of \si{\mole\per\liter}),
+    \item $l$ is the path length through which the light passes (in units of \si{\centi\meter}).
+\end{itemize}
+
+The absorbance $A$ is defined as:
+
+\begin{equation}
+A = -\log_{10}\left(\frac{I}{I_0}\right)
+\end{equation}
+
+where:
+\begin{itemize}
+    \item $I_0$ is the incident light intensity,
+    \item $I$ is the transmitted light intensity.
+\end{itemize}
+
+\end{document}
